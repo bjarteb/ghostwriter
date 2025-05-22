@@ -16,8 +16,8 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Development
 
-After installing the theme you need to install javascript dependencies. You can use 
-`npm` to install them from `package.json`. We are using `webpack` to build and package 
+After installing the theme you need to install javascript dependencies. You can use
+`npm` to install them from `package.json`. We are using `webpack` to build and package
 styles. In order to develop with realtime reloading in the browser you can use this powerful combo:
 
 ```bash
@@ -106,7 +106,7 @@ params:
     serverURL: ""
 
 permalinks:
-  post: "/:year/:month/:day/:filename/"
+  post: "/:year/:month/:day/:contentbasename/"
 
 menu:
   main:
